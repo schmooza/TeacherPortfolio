@@ -66,7 +66,7 @@
 }
 /* home */
 .flex-container > div{
-  background: blue;
+  background: #ffecb3;
   border: 3px solid #ffcc80;
   border-radius: 5px;
   padding: 8px;
@@ -75,7 +75,7 @@
 
 /* home */
 .flex-container > div.item1:hover{
-  background: blue;
+  background: #ffffff;
   border: 3px solid #1d1c1c;
   border-radius: 5px;
   padding: 8px;
@@ -92,7 +92,7 @@
 }
 
 .flex-container > div.item2:hover{
-  background: blue;
+  background: #ffffff;
   border: 3px solid #1d1c1c;
   border-radius: 5px;
   padding: 8px;
@@ -109,7 +109,7 @@
   
 }
 .flex-container > div.item5:hover{
-  background: blue;
+  background: #ffffff;
   border: 3px solid #1d1c1c;
   border-radius: 5px;
   padding: 8px;
@@ -127,7 +127,7 @@
   
 }
 .flex-container > div.item8:hover{
-  background: blue;
+  background: #ffffff;
   border: 3px solid #1d1c1c;
   border-radius: 5px;
   padding: 8px;
@@ -136,7 +136,7 @@
 
 a {color:rgb(0, 0, 0);}
 
-a:hover{color:rgb(255, 208, 0);}
+a:hover{color:rgb(246, 255, 0);}
 
 
 /* submenus */
@@ -159,29 +159,54 @@ a:hover{color:rgb(255, 208, 0);}
 
 }
 
-.flex-container2 > div.item2sub{
-  background: #000000;
+.flex-container2 > div.item2sub1{
+  background: blue;
+  border: 3px solid #ffcc80;
+  border-radius: 5px;
+  padding: 8px;
+  
+}
+.flex-container2 > div.item2sub2{
+  background: blue;
+  border: 3px solid #ffcc80;
+  border-radius: 5px;
+  padding: 8px;
+  
+}
+.flex-container2 > div.item2sub3{
+  background: blue;
+  border: 3px solid #ffcc80;
+  border-radius: 5px;
+  padding: 8px;
+  
+}
+.flex-container2 > div.item2sub4{
+  background: blue;
+  border: 3px solid #ffcc80;
+  border-radius: 5px;
+  padding: 8px;
+  
+}
+.flex-container2 > div.item2sub5{
+  background:blue;
+  border: 3px solid #ffcc80;
+  border-radius: 5px;
+  padding: 8px;
+  
+}
+.flex-container2 > div.item2sub6{
+  background:blue;
+  border: 3px solid #ffcc80;
+  border-radius: 5px;
+  padding: 8px;
+  
+}
+.flex-container2 > div.item2sub7{
+  background: blue;
   border: 3px solid #ffcc80;
   border-radius: 5px;
   padding: 8px;
   
 }
 
-.flex-container2 > div.item2sub:hover{
-  background: blue;
-  border: 3px solid #ffcc80;
-  border-radius: 5px;
-  padding: 8px;
-  
-  
-}
-.flex-container2 > div.item2sub:a{
-  background: #ffffff;
-  border: 3px solid #ffcc80;
-  border-radius: 5px;
-  padding: 8px;
-  color:#000000
-  
-  
-}
-a{color:#ffffff;}
+a{color:#1d1c1c}
