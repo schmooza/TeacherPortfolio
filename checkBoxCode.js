@@ -9,11 +9,13 @@ $('.faChkRnd').on('click', function() {
   
   $(document).ready(function() {
     var favorites = JSON.parse(localStorage.getItem('favorites'));
-    if (!favorites.length) {return};
+    if (!favorites?.length) {return};
     console.debug(favorites);
   
-    for (var i=0; i<favorites.length; i++) {
+    for (var i=0; i<favorites?.length; i++) {
       console.debug(favorites[i].value == 'on');
       $('#' + favorites[i].id ).prop('checked', favorites[i].value);
     }
   });
+
+  // addes ? to favorites?.length
