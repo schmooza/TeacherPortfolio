@@ -185,3 +185,8 @@ a:hover{color:rgb(255, 208, 0);}
   
 }
 a{color:#ffffff;}
+
+/* table of standards on home page */
+table, th, td {
+  border:1px solid black;
+}
